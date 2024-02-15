@@ -1,4 +1,4 @@
-// lintCode solution
+package Remove_Vowels_from_a_String;// lintCode solution
 import java.util.HashSet;
 
 

@@ -1,3 +1,5 @@
+package Remove_Vowels_from_a_String;
+
 import java.util.HashSet;
 public class Problem1119Solution3 {
     public static String Remove(String s) {
@@ -30,8 +32,8 @@ public class Problem1119Solution3 {
 }
 //
 //3631 · Remove Vowels From String
-//Lintcode Solution:-
-//public class Solution {
+//Lintcode Remove_Vowels_from_a_String.Solution:-
+//public class Remove_Vowels_from_a_String.Solution {
 //    /**
 //     * @param s: The string before remove vowels
 //     * @return: The string after remove vowels

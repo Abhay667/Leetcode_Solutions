@@ -1,3 +1,5 @@
+package Remove_Vowels_from_a_String;
+
 public class Problem1119Solution4 {
 
 
@@ -35,7 +37,7 @@ return result.toString();
 //Lintcode
 //3631 · Remove Vowels From String
 //
-//public class Solution {
+//public class Remove_Vowels_from_a_String.Solution {
 //    /**
 //     * @param s: The string before remove vowels
 //     * @return: The string after remove vowels

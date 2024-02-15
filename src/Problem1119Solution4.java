@@ -1,27 +1,66 @@
 public class Problem1119Solution4 {
-    StringBuffer result = new StringBuffer();
 
-    public  static void remove(String s)
+
+    public  static String remove(String s)
     {
+        StringBuffer result = new StringBuffer();
         int length= s.length();
         for(int i =0;i<length;i++)
         {
-            if(s.charAt(i)!='a'&& s.charAt(i)!='e')
+            if(s.charAt(i)!='a'&& s.charAt(i)!='e' && s.charAt(i)!='i'&& s.charAt(i)!='o'&& s.charAt(i)!='u' )
             {
-                System.out.print(s.charAt(i));
+               result.append(s.charAt(i));
+//System.out.println(s.charAt(i));
+
             }
             else {
-                //System.out.println("HI");
+
             }
 
         }
+        //System.out.println(result.toString());
+        //return result.toString();
+return result.toString();
     }
 
 
     public static void main(String[] args) {
     String s;
     s= "abcdefaaag";
-    remove(s);
+    System.out.println(remove(s));
 
     }
 }
+
+//Lintcode
+//3631 · Remove Vowels From String
+//
+//public class Solution {
+//    /**
+//     * @param s: The string before remove vowels
+//     * @return: The string after remove vowels
+//     */
+//    StringBuilder result = new StringBuilder();
+//
+//
+//    public String removeVowels(String s) {
+//        int length=s.length();
+//        for(int i=0;i<length;i++)
+//        {
+//            //System.out.print(s.charAt(i));
+//            if(s.charAt(i)!='a' && s.charAt(i)!='e' && s.charAt(i)!='i'&& s.charAt(i)!='o'&& s.charAt(i)!='u')
+//            {
+//                result.append(s.charAt(i));
+////System.out.print(s.charAt(i));
+//            }
+//            else
+//            {
+//
+//            }
+//        }
+//
+//        return result.toString();
+//    }
+//
+//    //return result.toString();
+//}

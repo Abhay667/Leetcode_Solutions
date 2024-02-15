@@ -9,8 +9,8 @@ public class Problem1119Solution1 {
         vowels.add('e');
         vowels.add('i');
         vowels.add('o');
-        vowels.add('u');
-        vowels.add('u');
+        vowels.add('A');
+        vowels.add('E');
 
         for (char ch : s.toCharArray()) {
             //System.out.println(ch);

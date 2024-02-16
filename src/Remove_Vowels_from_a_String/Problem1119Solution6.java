@@ -4,9 +4,15 @@ public class Problem1119Solution6 {
     public static void main(String[] args) {
 
 
+        String s = "abcdefghi";
+        System.out.print(Remove(s));
+
+    }
+
+    public static String Remove(String s) {
+
         StringBuffer result = new StringBuffer();
         String vowels = "aeiouAEIOU";
-        String s = "abcdefghi";
         for (char c : s.toCharArray()) {
 //System.out.print(c);
             if (!(vowels.indexOf(c) >= 0)) {
@@ -16,13 +22,10 @@ public class Problem1119Solution6 {
 
             }
         }
-        System.out.print(result);
-        return ""
+        // System.out.print(result);
+        return result.toString();
     }
 }
-
-
-
 
 
 //-----------------------------------------------------------------------------------------------------------

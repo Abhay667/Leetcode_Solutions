@@ -14,6 +14,11 @@ public class Problem2011Solution1 {
                 {
                     if(c.equals("--X")||c.equals("X--"))
                     {
+                        /*
+                        yaha par hum equals isliye use kar paa rhae hai kyoki
+                        c String type hai
+                         and content "operations" mai bhi String type hai
+                         */
                         x =x-1;
                         //System.out.println("hi");
 //System.out.println(x);
